@@ -1,9 +1,9 @@
-Carbon-Dev Source
+Carbon-MT4GS Source
 ===================
 
 Getting Started
 ---------------
-To get started with the Carbon-Dev sources, you'll need to get
+To get started with the Carbon-MT4GS sources, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/version-control.html).
 
 
@@ -60,25 +60,4 @@ Build the Code:
 
 Submitting Patches
 ------------------
-Patches are always welcome!  Please submit your patches via CarbonDev Gerrit!
-You can do this by using these commands:
-
-    Setting up for repo upload: (run these commands once)
-    git config --global review.review.carbonrom.org.username <Your username registered at CarbonDev gerrit>
-    git config --global review.review.carbonrom.org.email <Your email registered at CarbonDev gerrit>
-
-    (From root android directory)
-    . build/envsetup.sh
-    repo start kk .
-    (Make your changes and commit)
-    repo upload .
-
-Note: "." meaning current directory
-For more help on using this tool, use this command: repo help upload
-
-Make your changes and commit with a detailed message, starting with what you are working with (i.e. vision: Update Kernel)
-Commit your patches in a single commit. Squash multiple commit using this command: git rebase -i HEAD~<# of commits>
-
-To view the status of your and others' patches, visit [Carbondev Code Review](http://review.carbonrom.org/)
-
-If you have any issues/questions please contact us in channel: #teamcarbon  server: irc.freenode.net
+Patches are always welcome!  Please submit your patches via pull request in GitHub.  Will test before applying, so please be patient.
